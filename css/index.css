@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-flow: row, wrap;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.header img {
+    display: flex;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.navigation a {
+    display: flex;
+    margin-top: 23px;
+    text-decoration-line: none;
+    text-decoration-color: black;
+
+}
+
+.top-img {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
