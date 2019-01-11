@@ -217,3 +217,79 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page code */
+
+/* Header is the same as index.html See line 74 */
+
+.about-top-img {
+    margin-bottom: 20px;
+}
+
+.about-introduction {
+    margin-bottom: 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Ordering the middle content with flexbox */
+
+.about-middle-content h2 {
+    border-top: 10px;
+}
+
+.about-middle-content p {
+    width: 400px;
+    margin: 12px 0 12px 0;
+}
+
+.about-middle-content button {
+    width: 125px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.strategy {
+    border-bottom: 1px dashed black;
+    width: 385px;
+    padding-bottom: 10px;
+}
+
+.how-we-work {
+    border-bottom: 1px dashed black;
+    width: 385px;
+}
+
+.places-we-work {
+    border-bottom: 1px dashed black;
+    margin-top: 50px;
+    width: 385px;
+    padding-bottom: 10px;
+}
+
+.collaboration {
+    border-bottom: 1px dashed black;
+    margin-top: 50px;
+    width: 385px;
+}
+
+/* Ordering the bottom content */
+
+.about-bottom-content {
+    display: block;
+}
+
+.about-bottom-content h2 {
+    margin-top: 30px;
+}
+
+.about-bottom-content p {
+    margin-bottom: 40px;
+}
