@@ -307,3 +307,65 @@ button:hover {
 .about-bottom-content p {
     margin-bottom: 40px;
 }
+
+/* Contact Page CSS Starts Here */
+
+.container-contact {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-page h1 {
+    font-size: 50px;
+    margin: 20px 0 40px 0;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#firstName {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#lastName {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.gender {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.email {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
