@@ -93,7 +93,7 @@ nav {
     display: flex;
     margin-top: 23px;
     text-decoration-line: none;
-    text-decoration-color: black;
+    color: black;
 
 }
 
@@ -141,6 +141,49 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+/* Color the individual boxes by the ID */
+
+#teal-box {
+    background-color: teal;
+}
+
+#gold-box {
+    background-color: gold;
+}
+
+#cadetblue-box {
+    background-color: cadetblue;
+}
+
+#coral-box {
+    background-color: coral;
+}
+
+#crimson-box {
+    background-color: crimson;
+}
+
+#forestgreen-box {
+    background-color: forestgreen;
+}
+
+#darkorchid-box {
+    background-color: darkorchid;
+}
+
+#hotpink-box {
+    background-color: hotpink;
+}
+
+#indigo-box {
+    background-color: indigo;
+}
+
+#dodgerblue-box {
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
