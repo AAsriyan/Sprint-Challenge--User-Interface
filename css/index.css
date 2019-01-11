@@ -227,7 +227,9 @@ footer nav a {
 }
 
 .about-introduction {
-    margin-bottom: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
 }
 
 .about-middle-content {
@@ -239,7 +241,7 @@ footer nav a {
 /* Ordering the middle content with flexbox */
 
 .about-middle-content h2 {
-    border-top: 10px;
+    margin-top: 10px;
 }
 
 .about-middle-content p {
@@ -256,28 +258,40 @@ footer nav a {
     margin-bottom: 10px;
 }
 
+@keyframes change {
+    from {background-color: white; color:black;}
+    to {background-color: black; color:white;}
+}
+
+button:hover {
+    background-color: black;
+    color:white;
+    animation-name: change;
+    animation-duration: 0.5s;
+}
+
 .strategy {
     border-bottom: 1px dashed black;
-    width: 385px;
+    width: 372px;
     padding-bottom: 10px;
 }
 
 .how-we-work {
     border-bottom: 1px dashed black;
-    width: 385px;
+    width: 372px;
 }
 
 .places-we-work {
     border-bottom: 1px dashed black;
     margin-top: 50px;
-    width: 385px;
+    width: 372px;
     padding-bottom: 10px;
 }
 
 .collaboration {
     border-bottom: 1px dashed black;
     margin-top: 50px;
-    width: 385px;
+    width: 372px;
 }
 
 /* Ordering the bottom content */
