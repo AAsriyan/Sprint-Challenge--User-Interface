@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-flow: row, wrap;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.header img {
+    display: flex;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.navigation a {
+    display: flex;
+    margin-top: 23px;
+    text-decoration-line: none;
+    color: black;
+
+}
+
+.top-img {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +142,49 @@ p {
     justify-content: center;
 }
 
+/* Color the individual boxes by the ID */
+
+#teal-box {
+    background-color: teal;
+}
+
+#gold-box {
+    background-color: gold;
+}
+
+#cadetblue-box {
+    background-color: cadetblue;
+}
+
+#coral-box {
+    background-color: coral;
+}
+
+#crimson-box {
+    background-color: crimson;
+}
+
+#forestgreen-box {
+    background-color: forestgreen;
+}
+
+#darkorchid-box {
+    background-color: darkorchid;
+}
+
+#hotpink-box {
+    background-color: hotpink;
+}
+
+#indigo-box {
+    background-color: indigo;
+}
+
+#dodgerblue-box {
+    background-color: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +216,156 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page code */
+
+/* Header is the same as index.html See line 74 */
+
+.about-top-img {
+    margin-bottom: 20px;
+}
+
+.about-introduction {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Ordering the middle content with flexbox */
+
+.about-middle-content h2 {
+    margin-top: 10px;
+}
+
+.about-middle-content p {
+    width: 400px;
+    margin: 12px 0 12px 0;
+}
+
+.about-middle-content button {
+    width: 125px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+@keyframes change {
+    from {background-color: white; color:black;}
+    to {background-color: black; color:white;}
+}
+
+button:hover {
+    background-color: black;
+    color:white;
+    animation-name: change;
+    animation-duration: 0.5s;
+}
+
+.strategy {
+    border-bottom: 1px dashed black;
+    width: 372px;
+    padding-bottom: 10px;
+}
+
+.how-we-work {
+    border-bottom: 1px dashed black;
+    width: 372px;
+}
+
+.places-we-work {
+    border-bottom: 1px dashed black;
+    margin-top: 50px;
+    width: 372px;
+    padding-bottom: 10px;
+}
+
+.collaboration {
+    border-bottom: 1px dashed black;
+    margin-top: 50px;
+    width: 372px;
+}
+
+/* Ordering the bottom content */
+
+.about-bottom-content {
+    display: block;
+}
+
+.about-bottom-content h2 {
+    margin-top: 30px;
+}
+
+.about-bottom-content p {
+    margin-bottom: 40px;
+}
+
+/* Contact Page CSS Starts Here */
+
+.container-contact {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-page h1 {
+    font-size: 50px;
+    margin: 20px 0 40px 0;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#firstName {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#lastName {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.gender {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.email {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
